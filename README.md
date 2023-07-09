@@ -23,7 +23,13 @@ This repository serves as my personal space to apply the concepts and techniques
 
 These are the resources I used in order:
 
-1. **JAMstack Course by Phil Hawksworth:** I highly recommend the JAMstack Course developed by Phil Hawksworth, available on [YouTube](https://www.youtube.com/your-video-link). Phil, being part of the Developer Experience team at Netlify, provides expert insights and practical examples to master JAMstack.
+1. **JAMstack Course by Phil Hawksworth:** available on [YouTube](https://www.youtube.com/your-video-link). Phil, being part of the Developer Experience team at Netlify, provides expert insights and practical examples to master JAMstack.
+   - Prerequisites:
+   - Netlify Account (Free)
+   - Git Installed (Free)
+   - GitHub Account (Free)
+   - NodeJS Installed (Free)
+3. **How to Use Git and GitHub – Introduction for Beginners by Segun Ajibola** article on [freeCodeCamp/news]([https://www.youtube.com/your-video-link](https://www.freecodecamp.org/news/introduction-to-git-and-github/)) 
 
 
 Feel free to explore these resources to deepen your understanding of JAMstack and further expand your knowledge in this exciting field.
