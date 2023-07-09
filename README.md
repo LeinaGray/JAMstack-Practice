@@ -29,7 +29,7 @@ These are the resources I used in order:
    - Git Installed (Free)
    - GitHub Account (Free)
    - NodeJS Installed (Free)
-3. **How to Use Git and GitHub – Introduction for Beginners by Segun Ajibola** article on [freeCodeCamp/news](https://www.youtube.com/your-video-link](https://www.freecodecamp.org/news/introduction-to-git-and-github/ )
+3. **How to Use Git and GitHub – Introduction for Beginners by Segun Ajibola** article on [freeCodeCamp News](https://www.freecodecamp.org/news/introduction-to-git-and-github/).
 
 
 Feel free to explore these resources to deepen your understanding of JAMstack and further expand your knowledge in this exciting field.
