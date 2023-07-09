@@ -19,6 +19,15 @@ JAMstack is an architectural pattern for web development that emphasizes decoupl
 
 This repository serves as my personal space to apply the concepts and techniques learned in the JAMstack Course. It contains code samples, exercises, and project templates that I use for hands-on practice and experimentation.
 
+## Resources
+
+These are the resources I used in order:
+
+1. **JAMstack Course by Phil Hawksworth:** I highly recommend the JAMstack Course developed by Phil Hawksworth, available on [YouTube](https://www.youtube.com/your-video-link). Phil, being part of the Developer Experience team at Netlify, provides expert insights and practical examples to master JAMstack.
+
+
+Feel free to explore these resources to deepen your understanding of JAMstack and further expand your knowledge in this exciting field.
+
 ## Contributions and Usage
 
 Please note that this repository is solely intended for my personal learning purposes, and I do not encourage others to use it directly. However, if you have any suggestions or would like to contribute to my learning journey, feel free to create a pull request or open an issue.
