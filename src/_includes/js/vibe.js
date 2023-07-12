@@ -1,4 +1,3 @@
-
 //Array of happy quotes
 const quotes = [
     "...and you are awesome!",

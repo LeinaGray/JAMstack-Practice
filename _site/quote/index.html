@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A page for you</title>
+    <title>Home</title>
     <style>
         body {
             text-align: center;
@@ -19,13 +19,26 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    
+<div class="container">
         <h1>This is a page for you</h1>
-        <div class="vibe">you are great!</div>
+        <div class="vibe">You are great!</div>
         <div class="love">
             💝
         </div>
-    </div>
-    <script src="vibe.js"></script>
+</div>
+    //Array of happy quotes
+const quotes = [
+    "...and you are awesome!",
+    "...and you've got this!",
+    "...have a wonderful day!",
+    "...and so is this puppy!🐶"
+  ];
+
+//randomly choose one from quotes
+var random_quote = quotes[Math.floor(Math.random() * Math.floor(quotes.length))];
+
+//append random quote to .vibe class
+document.querySelector('.vibe').append(random_quote);
 </body>
 </html>
