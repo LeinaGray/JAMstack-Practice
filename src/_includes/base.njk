@@ -1,0 +1,22 @@
+{% import "macros.njk" as a %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    {{ a.meta_tag()}}
+    {{ a.bootstrap_css() }}
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+
+    {{ a.snipcart() }}
+
+    {% block container %}
+      This is a container
+    {% endblock %}
+    {{ a.bootstrap_js() }}
+  </body>
+</html>

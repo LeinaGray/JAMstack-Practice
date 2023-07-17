@@ -1,0 +1,235 @@
+[
+    {
+      "id": "AC",
+      "name": "Active",
+      "short-description": "Dry food for very active dogs",
+      "url": "https://www.specific-diets.co.uk/dog/everyday-diets/active-ac-gb",
+      "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/AC.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+      "description": "Dry food specially formulated for very active dogs. It provides the necessary energy and nutrients to support their active lifestyle.",
+      "benefits": "Provides high energy for active dogs. Contains essential nutrients for optimal performance. Supports overall health and vitality.",
+      "code": "AC",
+      "prices": [
+        {
+          "size": "4 kg",
+          "price": 35.99
+        }
+      ],
+      "nutritional-content": {
+        "crude-protein": "16.0%",
+        "crude-fat": "6.0%",
+        "crude-fiber": "1.5%",
+        "crude-ash": "6.0%",
+        "calcium": "0.4%",
+        "phosphorus": "0.4%",
+        "sodium": "0.2%"
+      },
+      "ingredients": "Pork fat, wheat, maize protein, fish meal, egg powder, rice, potato protein, minerals, yeast (including source of β-1,3/1,6-glucans 0.1%), dextrose, animal protein hydrolysate, fish oil, vitamins and trace elements (including chelated trace elements), psyllium husk, methionine, taurine, L-carnitine, rosemary extract. With natural antioxidants (tocopherols and vitamin C). Contains no added artificial colours or flavourings."
+    },
+    {
+      "id": "CA",
+      "name": "Adult All Breeds",
+      "short-description": "Tasty wet food pâté for adult dogs of all breeds",
+      "url": "https://www.specific-diets.co.uk/dog/everyday-diets/adult-all-breeds-ca-gb",
+      "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CA.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+      "description": "A tasty wet food pâté specifically formulated for adult dogs of all breeds. It provides a complete and balanced nutrition with high-quality ingredients to support their overall health and well-being.",
+      "benefits": "Contains high-quality ingredients for optimal nutrition. Provides a delicious and palatable taste. Supports the overall health and well-being of adult dogs.",
+      "code": "CA",
+      "prices": [
+        {
+          "size": "4 kg",
+          "price": 29.99
+        },
+        {
+          "size": "7 kg",
+          "price": 44.99
+        },
+        {
+          "size": "12 kg",
+          "price": 64.99
+        }
+      ],
+      "nutritional-content": {
+        "crude-protein": "16.0%",
+        "crude-fat": "6.0%",
+        "crude-fiber": "1.5%",
+        "crude-ash": "6.0%",
+        "calcium": "0.4%",
+        "phosphorus": "0.4%",
+        "sodium": "0.2%"
+      },
+      "ingredients": "Beef, chicken liver, rice, carrots, peas, minerals, vitamins, egg powder, psyllium husk, dextrose, methionine, taurine, L-carnitine, fish oil, trace elements, yeast (including source of β-1,3/1,6-glucans 0.1%), rosemary extract, natural antioxidants (tocopherols and vitamin C). Contains no added artificial colours or flavourings."
+    },
+    {
+      "id": "ALG",
+      "name": "Adult Large & Giant Breed",
+      "short-description": "Dry food for adult large and giant breed over 25 kg",
+      "url": "https://www.specific-diets.co.uk/dog/everyday-diets/adult-large-giant-breed-alg-gb",
+      "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/ALG.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+      "description": "Dry food specifically designed for adult dogs of large and giant breeds weighing over 25 kg. It provides balanced nutrition to support their unique needs.",
+      "benefits": "Specially formulated for large and giant breeds. Supports joint and bone health. Helps maintain an ideal body condition.",
+      "code": "ALG",
+      "prices": [
+        {
+          "size": "4 kg",
+          "price": 39.99
+        },
+        {
+          "size": "7 kg",
+          "price": 59.99
+        },
+        {
+          "size": "12 kg",
+          "price": 89.99
+        }
+      ],
+      "nutritional-content": {
+        "crude-protein": "16.0%",
+        "crude-fat": "6.0%",
+        "crude-fiber": "1.5%",
+        "crude-ash": "6.0%",
+        "calcium": "0.4%",
+        "phosphorus": "0.4%",
+        "sodium": "0.2%"
+      },
+      "ingredients": "Chicken meal, rice, maize protein, wheat, pork fat, hydrolyzed poultry protein, beet pulp, minerals, fish meal, fish oil, yeast (including source of β-1,3/1,6-glucans 0.1%), psyllium husk, vitamins, taurine, L-carnitine, rosemary extract. With natural antioxidants (tocopherols and vitamin C). Contains no added artificial colours or flavourings."
+    }
+{
+    "id": "DL",
+    "name": "Dental Chew Large",
+    "short-description": "Tasty chew for support of oral health in adult dogs with body weight above 15 kg.",
+    "url": "https://www.specific-diets.co.uk/dog/everyday-diets/dental-chew-large-dl-gb",
+    "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/DL.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+    "description": "Tasty chew specifically designed to support oral health in adult dogs with a body weight above 15 kg. It has a special texture and ingredients to help reduce plaque and tartar buildup.",
+    "benefits": "Promotes good oral health. Helps reduce plaque and tartar buildup. Provides a delicious and enjoyable chewing experience.",
+    "code": "DL",
+    "prices": [
+    {
+        "size": "4 kg",
+        "price": 24.99
+    },
+    {
+        "size": "7 kg",
+        "price": 39.99
+    },
+    {
+        "size": "12 kg",
+        "price": 59.99
+    }
+    ],
+    "nutritional-content": {
+    "crude-protein": "10.0%",
+    "crude-fat": "2.5%",
+    "crude-fiber": "1.5%",
+    "crude-ash": "3.0%",
+    "calcium": "0.3%",
+    "phosphorus": "0.2%",
+    "sodium": "0.2%"
+    },
+    "ingredients": "Rice flour, potato starch, vegetable glycerine, dried pork protein, cellulose powder, dried seaweed, minerals (including 2% sodium hexametaphosphate), maize protein, green tea extract, eucalyptus oil, parsley oil, pomegranate extract, cranberry extract. With natural antioxidants (tocopherols and vitamin C). The treats contain no artificial colours or flavourings."
+},
+{
+    "id": "LU",
+    "name": "Lunch",
+    "short-description": "Tasty wet food pâté for very active dogs",
+    "url": "https://www.specific-diets.co.uk/dog/everyday-diets/lunch-lu-gb",
+    "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/LU.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+    "description": "Tasty wet food pâté specially formulated for very active dogs. It provides a balanced nutrition to support their high energy requirements.",
+    "benefits": "Highly palatable. Provides essential nutrients for active dogs. Supports their overall health and well-being.",
+    "code": "LU",
+    "prices": [
+    {
+        "size": "4 kg",
+        "price": 29.99
+    },
+    {
+        "size": "7 kg",
+        "price": 44.99
+    },
+    {
+        "size": "12 kg",
+        "price": 64.99
+    }
+    ],
+    "nutritional-content": {
+    "crude-protein": "12.0%",
+    "crude-fat": "5.0%",
+    "crude-fiber": "1.5%",
+    "crude-ash": "2.5%",
+    "calcium": "0.3%",
+    "phosphorus": "0.25%",
+    "sodium": "0.2%"
+    },
+    "ingredients": "Chicken, pork, wheat, maize, egg powder, fish meal, rice, fish oil, minerals, yeast (including source of β-1,3/1,6-glucans 0.1%), psyllium husk, methionine, taurine, L-carnitine, rosemary extract. With natural antioxidants (tocopherols and vitamin C). Contains no added artificial colours or flavourings."
+},
+{
+    "id": "AM",
+    "name": "Adult Medium Breed",
+    "short-description": "Dry food for adult medium breed between 10 and 25 kg",
+    "url": "https://www.specific-diets.co.uk/dog/everyday-diets/adult-medium-breed-am-gb",
+    "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/AM.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+    "description": "Dry food specially formulated for adult dogs of medium breeds weighing between 10 and 25 kg. It provides a balanced and complete nutrition for their unique needs.",
+    "benefits": "Tailored for medium breeds. Supports their energy requirements. Promotes overall health and well-being.",
+    "code": "AM",
+    "prices": [
+    {
+        "size": "4 kg",
+        "price": 32.99
+    },
+    {
+        "size": "7 kg",
+        "price": 49.99
+    },
+    {
+        "size": "12 kg",
+        "price": 74.99
+    }
+    ],
+    "nutritional-content": {
+    "crude-protein": "14.0%",
+    "crude-fat": "6.0%",
+    "crude-fiber": "1.5%",
+    "crude-ash": "6.0%",
+    "calcium": "0.6%",
+    "phosphorus": "0.4%",
+    "sodium": "0.2%"
+    },
+    "ingredients": "Chicken meal, rice, maize protein, wheat, pork fat, hydrolyzed poultry protein, beet pulp, minerals, fish meal, fish oil, yeast (including source of β-1,3/1,6-glucans 0.1%), psyllium husk, vitamins, taurine, L-carnitine, rosemary extract. With natural antioxidants (tocopherols and vitamin C). Contains no added artificial colours or flavourings."
+},
+{
+    "id": "OB",
+    "name": "Organic with Beef",
+    "short-description": "Organic wet food pâté for healthy adult dogs",
+    "url": "https://www.specific-diets.co.uk/dog/everyday-diets/organic-with-beef-ob-gb",
+    "image": "https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/OB.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0",
+    "description": "Organic wet food pâté with beef, specifically formulated for healthy adult dogs. Made with certified organic ingredients, it provides a natural and nutritious meal.",
+    "benefits": "Certified organic ingredients. High-quality beef. Promotes overall health and well-being.",
+    "code": "OB",
+    "prices": [
+    {
+        "size": "4 kg",
+        "price": 34.99
+    },
+    {
+        "size": "7 kg",
+        "price": 54.99
+    },
+    {
+        "size": "12 kg",
+        "price": 79.99
+    }
+    ],
+    "nutritional-content": {
+    "crude-protein": "12.0%",
+    "crude-fat": "5.0%",
+    "crude-fiber": "1.5%",
+    "crude-ash": "2.5%",
+    "calcium": "0.3%",
+    "phosphorus": "0.25%",
+    "sodium": "0.2%"
+    },
+    "ingredients": "Beef*, pork*, chicken*, rice*, sunflower oil*, fish meal, fish oil, minerals, yeast (including source of β-1,3/1,6-glucans 0.1%), psyllium husk, vitamins, taurine, rosemary extract. With natural antioxidants (tocopherols and vitamin C). Contains no added artificial colours or flavourings. *Certified organic ingredient."
+}
+]
+
+      
+  

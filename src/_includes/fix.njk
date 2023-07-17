@@ -1,0 +1,28 @@
+<p>
+    {# {%if dogfood.name == product.name%} #}
+    {%for dogfood in dogfoods%}
+        <ul>
+            <li>id: {{dogfood.code}}</li>
+            <li>name: {{dogfood.name}}</li>
+            <li>url: {{dogfood.url}}</li>
+            <li>image: {{dogfood.image}}</li>
+            <li>short description: {{dogfood.short-description}}</li>
+            <li>description: {{dogfood.description}}</li>
+            <li>benefits: {{dogfood.benefits}}</li>
+            <li>sizes:</li>
+            {% for dogfood.size in dogfood.sizes %}
+                <li>{{dogfood.size}}</li>
+            {% endfor %}
+            <li>weight:</li>
+            {% for dogfood.weight in dogfood.weights %}
+                <li>
+                    kg: {{dogfood.weight.kg}}
+                    thin: {{dogfood.weight.thin}}
+                    normal: {{dogfood.weight.normal}}
+                    overweight: {{dogfood.weight.overweight}}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+        
+</p>

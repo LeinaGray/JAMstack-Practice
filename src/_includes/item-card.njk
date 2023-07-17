@@ -1,0 +1,34 @@
+{# {% set package = [] %}
+        {% for product.size in product.sizes %}
+          {% set package = package + [size] %}
+        {% endfor %} #}
+
+{% macro snipcart_btn(product) %}
+    <button class="btn btn-primary snipcart-add-item"
+        data-item-id="{{product.code}}"
+        data-item-price="{{product.price*2}}"
+        data-item-description="{{product.short-description}}"
+        data-item-image="{{product.image}}"
+        data-item-name="{{product.name}}"
+        data-item-custom1-name="Package Size"
+        data-item-custom1-options="{{product.size}}">
+        Add to cart
+      </button>
+{% endmacro %}
+
+<div class="col">
+  <div class="card {{product.tag}}" style="width: 18rem;">
+    <img src="{{product.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.name}}</h5>
+      <p class="card-text">{{product.short_description}}</p>
+      <a href="#" class="btn btn-primary">Learn More</a><br>
+      {{ snipcart_btn(product) }}
+    </div>
+  </div>
+</div>
+
+
+
+
+
