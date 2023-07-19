@@ -1,16 +1,20 @@
 {% import "macros.njk" as a %}
-
+{% import "components.njk" as c%}
 <!doctype html>
 <html lang="en">
   <head>
     {{a.meta_tags()}}
     {{a.bootstrap_css()}}
+    {{a.styles()}}
+    {{a.fonts()}}
     <title>{{title}}</title>
   </head>
 
   <body>
     {{a.snipcart()}}
-    <h1>{{title}}</h1>
+    {{c.header()}}
+    {{c.navbar()}}
+    {{c.hero_section()}}
 
     {% block container%}
       This is a container for main content.
