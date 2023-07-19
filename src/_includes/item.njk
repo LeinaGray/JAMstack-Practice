@@ -1,6 +1,6 @@
 {% macro snipcart_btn(product) %}
     <button class="btn btn-primary snipcart-add-item"
-        data-item-id="{{product.code}}"
+        data-item-id="{{product.id}}"
         data-item-price="{{product.price*2}}"
         data-item-description="{{product.short-description}}"
         data-item-image="{{product.image}}"
@@ -11,7 +11,7 @@
       </button>
 {% endmacro %}
 
-<div class="card {{product.tag}}" style="width: 18rem;">
+<div class="card" style="width: 18rem;">
       <img src="{{product.image}}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{product.name}}</h5>

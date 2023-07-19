@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: menu.njk
 products: 
      - name: Active
@@ -1070,4 +1070,4 @@ products:
        benefits: Low allergenicity ingredients make them suitable for dogs with allergy and dermatological issues. Calories and fat at levels that make these treats suitable for dogs with joint and mobility issues. Fat at a level that make these treats suitable for dogs with pancreatitis. Low protein, magnesium, phosphorus, calcium and sodium levels makes these treats suitable for dogs with kidney disease, heart disease and bladder stones. Slowly baked for added palatability
        product_code: CT-SC
        package_size: 300 g
----
+--- -->
