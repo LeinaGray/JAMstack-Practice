@@ -5,8 +5,11 @@ title: Products
 {%extends "base.njk"%}
 
 {% block container %}
-    {% for product in products %}
-        {% include "item.njk" %}
-    {% endfor %}
+    <div class="container">
+        <div class="row">
+            {% for product in products %}
+                {% include "item.njk" %}
+            {% endfor %}
+        </div>
 {% endblock %}
     
