@@ -1,0 +1,20 @@
+{% import "macros.njk" as a %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    {{a.meta_tags()}}
+    {{a.bootstrap_css()}}
+    <title>{{title}}</title>
+  </head>
+
+  <body>
+    <h1>{{title}}</h1>
+
+    {% block container%}
+      This is a container for main content.
+    {% endblock %}
+
+    {{a.bootstrap_js()}}
+    </body>
+</html>

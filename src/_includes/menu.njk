@@ -1,21 +1,12 @@
-{% import "macros.njk" as a %}
+---
+title: Products
+---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    {{a.meta_tags()}}
-    {{a.bootstrap_css()}}
+{%extends "base.njk"%}
 
-   
-    <title>Menu</title>
-  </head>
-  <body>
-    <h1>Menu</h1>
-
+{% block container %}
     {% for product in products %}
-    {% include "item.njk" %}
+        {% include "item.njk" %}
     {% endfor %}
-
-    {{a.bootstrap_js()}}
-    </body>
-</html>
+{% endblock %}
+    
