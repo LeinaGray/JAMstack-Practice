@@ -4,13 +4,17 @@
   "description": "",
   "main": "vibe.js",
   "scripts": {
-    "build": "eleventy",
-    "start": "npx eleventy --serve"
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass assets/css:site/assets/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.63.6"
   }
 }
