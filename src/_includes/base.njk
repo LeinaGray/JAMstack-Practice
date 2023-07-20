@@ -5,21 +5,25 @@
   <head>
     {{a.meta_tags()}}
     {{a.bootstrap_css()}}
-    {{a.styles()}}
+    {%include "css.njk" %}
     {{a.fonts()}}
     <title>{{title}}</title>
   </head>
 
   <body>
     {{a.snipcart()}}
-    {{c.header()}}
-    {{c.navbar()}}
-    {{c.hero_section()}}
+    <div class="container">
+      {{c.header()}}
+      {{c.navbar()}}
+      {{c.hero_section()}}
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fb07YhptrAMDncpyro6NNgG%2FUntitled%3Ftype%3Ddesign%26node-id%3D2%253A1529%26mode%3Ddesign%26t%3D48PO63mOzsplUuxM-1" ></iframe>
+      
 
-    {% block container%}
-      This is a container for main content.
-    {% endblock %}
-
+      {% block container%}
+        This is a container for main content.
+      {% endblock %}
+      {# {{c.footer()}} #}
+    </div>
     {{a.bootstrap_js()}}
     </body>
 </html>

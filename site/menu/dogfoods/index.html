@@ -1,6 +1,6 @@
 <!-- ---
-layout: menu.njk
-products: 
+layout: product.njk
+dogfoods: 
      - name: Active
        short_description: Dry food for very active dogs
        short_description_url: https://www.specific-diets.co.uk/dog/everyday-diets/active-cad-gb

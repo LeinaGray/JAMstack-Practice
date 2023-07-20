@@ -3,7 +3,7 @@
         data-item-id="{{product.id}}"
         data-item-price="{{product.price*2}}"
         data-item-description="{{product.short-description}}"
-        data-item-image="{{product.image}}"
+        data-item-image="{{product.image}} img-fluid"
         data-item-name="{{product.name}}"
         data-item-custom1-name="Package Size"
         data-item-custom1-options="4kg[+{{product.price*2}}] | 7kg[+{{product.price*5}}] | 10kg[+{{product.price*8}}]">
@@ -11,13 +11,13 @@
       </button>
 {% endmacro %}
 <div class="col">
-  <div class="card" style="width: 18rem; ">
-      <img src="{{product.image}}" class="card-img-top" alt="...">
+  <div class="card" style="width: 19rem;">
+      <img src="{{product.image}}" class="card-img-top object-fit-contain" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{product.name}}</h5>
         <p class="card-subtitle">₱{{product.price}}/kg</p>
         <p class="card-text">{{product.short_description}}</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="{{}}" class="btn btn-primary">Learn More</a>
         {{snipcart_btn(product)}}
       </div>
     </div>

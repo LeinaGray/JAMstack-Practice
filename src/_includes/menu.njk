@@ -5,8 +5,8 @@ title: Products
 {%extends "base.njk"%}
 
 {% block container %}
-    <div class="container">
-        <div class="row">
+    <div class="container mt-4 text-center">
+        <div class="row gy-4">
             {% for product in products %}
                 {% include "item.njk" %}
             {% endfor %}

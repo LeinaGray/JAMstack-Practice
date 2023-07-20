@@ -1,0 +1,12 @@
+---
+title: Products
+---
+{# {% import "macros.njk" as a %} #}
+{%extends "base.njk"%}
+
+{% block container %}
+    {% for dogfood in dogfoods %}
+        {% include desc.njk%}
+    {% endfor %}
+{% endblock %}
+    
