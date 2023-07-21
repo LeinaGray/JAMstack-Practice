@@ -1,10 +1,10 @@
 ---
-pagination:
-  data: tests
-  size: 1
-  alias: test
-permalink: "tests/{{ test.name | slug }}/"
-layout: test.njk
+# pagination:
+#   data: tests
+#   size: 1
+#   alias: test
+# permalink: "tests/{{ test.name | slug }}/"
+# layout: image.njk
 links:
     - Home
     - Why Pawfect Treats?

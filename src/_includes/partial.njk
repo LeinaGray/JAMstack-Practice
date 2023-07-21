@@ -1,17 +1,20 @@
-
-<!-- Product section-->
+{% macro product_section(product) %}
+    <!-- Product section-->
         <div class="py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." /></div>
+                    {# <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fb07YhptrAMDncpyro6NNgG%2FUntitled%3Ftype%3Ddesign%26node-id%3D2%253A1017%26mode%3Ddesign%26t%3DVX91cH2L20FV1j5Z-1" allowfullscreen></iframe> #}
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="../../assets/img/{{product.name}}.png" alt="..." /></div>
+                    
                     <div class="col-md-6">
-                        <div class="small mb-1">{{test.id}}</div>
-                        <h1 class="display-5 fw-bolder">{{test.name}}</h1>
+                        <div class="small mb-1">{{product.id}}</div>
+                        <h1 class="display-5 fw-bolder">{{product.name}}</h1>
                         <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">{{test.price}}</span>
-                            <span>{{test.price}}</span>
+                            <span class="text-decoration-line-through">₱{{product.price}}</span>
+                            <span>₱{{product.price}}</span>
                         </div>
-                        <p class="lead">{{test.short_description}}</p>
+                        <p class="lead">{{product.short_description}}</p>
+                        <ul class="lead"><li>{{product.benefits | replace(".", ". </li><li>") | safe}}</p>
                         <div class="d-flex">
                             <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
@@ -23,3 +26,5 @@
                 </div>
             </div>
         </div>
+{% endmacro %}
+

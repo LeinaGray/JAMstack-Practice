@@ -1,15 +1,15 @@
 ---
 layout: product.njk
-title: {{sample.name}}
+title: {{product.name}}
 pagination:
   data: products
   size: 1
   alias: product
-permalink: "products/{{ product.name | slug }}/"
+permalink: "products/{{ product.id | slug }}/"
 products:
 - id: CPD-L
   name: Puppy Large & Giant Breed
-  short-description: Puppy food for large and giant breeds, over 25 kg adult weight
+  short_description: Puppy food for large and giant breeds, over 25 kg adult weight
   url: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-XL.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-XL.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0 
   description: SPECIFIC™ Large & Giant Breed Puppy food is for large breeds, over 25kg adult
@@ -116,7 +116,7 @@ products:
     (tocopherols, rosemary extract and vitamin C).
 - id: CPD-M
   name: Puppy Medium Breed
-  short-description: Puppy food for medium breeds, between 10-25 kg adult weight
+  short_description: Puppy food for medium breeds, between 10-25 kg adult weight
   url: https://www.specific-diets.co.uk/dog/everyday-diets/puppy-medium-breed-cpd-m-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-M.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
   description: SPECIFIC™ Medium Breed Puppy food is for medium breeds, 10-25kg adult
@@ -199,7 +199,7 @@ products:
     (tocopherols, rosemary extract and vitamin C).
 - id: CPD-S
   name: Puppy Small Breed
-  short-description: Puppy food for small breeds, under 10 kg adult weight
+  short_description: Puppy food for small breeds, under 10 kg adult weight
   url: https://www.specific-diets.co.uk/dog/everyday-diets/puppy-small-breed-cpd-s-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
   description: SPECIFIC™ Small Breed Puppy food is for small breeds, under 10kg adult
@@ -294,7 +294,7 @@ products:
     (tocopherols, rosemary extract and vitamin C).
 - id: CGD-S
   name: Senior Small Breed
-  short-description: Dry food for senior dogs of small breeds under 10 kg
+  short_description: Dry food for senior dogs of small breeds under 10 kg
   url: https://www.specific-diets.co.uk/dog/everyday-diets/senior-small-breed-cgd-s-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CGD-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
   description: A dry food for small breed senior dogs under 10 kg. High levels of
@@ -394,7 +394,7 @@ products:
     C).
 - id: CT-DC-S
   name: Dental Chew Small
-  short-description: Tasty chews for support of oral health in adult dogs with body
+  short_description: Tasty chews for support of oral health in adult dogs with body
     weight up to 15 kg
   url: https://www.specific-diets.co.uk/dog/everyday-diets/dental-chew-small-ct-dc-s-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-DC-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
@@ -422,7 +422,7 @@ products:
     fish oil, algae meal, minerals, green tea extract, eucalyptus oil
 - id: CT-H
   name: Healthy Treats
-  short-description: A treat for healthy dogs of all breeds and ages
+  short_description: A treat for healthy dogs of all breeds and ages
   url: https://www.specific-diets.co.uk/dog/everyday-diets/healthy-treats-ct-h-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-H.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
   description: Low in fat and energy and high in fiber, you can give these treats
@@ -452,7 +452,7 @@ products:
     With natural antioxidants (tocopherols and vitamin C).
 - id: CT-HM
   name: Healthy Treats Mini
-  short-description: A mini low-fat treat for healthy dogs of all ages. Small size
+  short_description: A mini low-fat treat for healthy dogs of all ages. Small size
     makes it ideal for smaller breeds
   url: https://www.specific-diets.co.uk/dog/everyday-diets/healthy-treats-mini-ct-hm-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-HM.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
@@ -483,7 +483,7 @@ products:
     (tocopherols and vitamin C).
 - id: CT-HY
   name: Hypoallergenic Treats
-  short-description: A hypoallergenic treat for dogs with food allergy or digestive
+  short_description: A hypoallergenic treat for dogs with food allergy or digestive
     problems
   url: https://www.specific-diets.co.uk/dog/everyday-diets/hypoallergenic-treats-ct-hy-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-HY.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
@@ -516,7 +516,7 @@ products:
     and vitamin C).
 - id: CT-BIO
   name: Organic Treats
-  short-description: An organic treat for healthy dogs of all breeds and ages
+  short_description: An organic treat for healthy dogs of all breeds and ages
   url: https://www.specific-diets.co.uk/dog/everyday-diets/organic-treats-ct-bio-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-BIO.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
   description: Delicious treats for dogs made with a minimum of 95% certified organic
@@ -544,7 +544,7 @@ products:
     ingredients
 - id: CT-SC
   name: Special Care Treats
-  short-description: Treats especially suited for dogs with clinical conditions that
+  short_description: Treats especially suited for dogs with clinical conditions that
     are supported by a special care diet.
   url: https://www.specific-diets.co.uk/dog/everyday-diets/special-care-treats-ct-sc-gb
   image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-SC.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
