@@ -1,6 +1,6 @@
-<!-- ---
-layout: menu.njk
-products:
+---
+# layout: menu.njk
+# products:
 - id: CPD-L
   name: Puppy Large & Giant Breed
   short-description: Puppy food for large and giant breeds, over 25 kg adult weight
@@ -570,4 +570,4 @@ products:
     starch, animal fat, fish oil, minerals, vitamins and trace elements, beet pulp,
     psyllium husk, algae meal, sunflower oil, rosemary extract, krill powder, glucosamine,
     chondroitin sulphate
---- -->
+---
