@@ -1,6 +1,12 @@
 ---
-# layout: menu.njk
-# products:
+layout: product.njk
+title: {{sample.name}}
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: "products/{{ product.name | slug }}/"
+products:
 - id: CPD-L
   name: Puppy Large & Giant Breed
   short-description: Puppy food for large and giant breeds, over 25 kg adult weight
