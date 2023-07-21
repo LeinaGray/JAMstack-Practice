@@ -2,8 +2,8 @@
     <button class="btn btn-outline-dark flex-shrink-0 snipcart-add-item" type="button"
         data-item-id="{{product.id}}"
         data-item-price="{{product.price}}"
-        data-item-description="{{product.short-description}}"
-        data-item-image="../../../assets/img/{{product.name}}.png"
+        data-item-description="{{product.short_description}}"
+        data-item-image="/site/assets/img/{{product.name}}.png"
         data-item-name="{{product.name}}"
         data-item-weight=1000
         data-item-min-quantity=1
@@ -31,7 +31,7 @@
                             <span>₱{{product.price}}</span>
                         </div>
                         <p class="lead">{{product.short_description}}</p>
-                        <ul class="lead"><li>{{product.benefits | replace(".", ". </li><li>") | safe}}</p>
+                        <ul class="lead"><li>{{product.benefits | replace(".", "</li><li>") | safe}}</p>
                         <div class="d-flex">
                             <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                             {{snipcart_btn(product)}}

@@ -2,8 +2,8 @@
     <button class="btn btn-outline-dark mt-auto snipcart-add-item"
         data-item-id="{{product.id}}"
         data-item-price="{{product.price}}"
-        data-item-description="{{product.short-description}}"
-        data-item-image="../../assets/img/{{product.name}}.png"
+        data-item-description="{{product.short_description}}"
+        data-item-image="/assets/img/{{product.name}}.png"
         data-item-name="{{product.name}}"
         data-item-weight=1000
         data-item-min-quantity=1
@@ -29,7 +29,7 @@
             </div>
         <p class="card-text text-muted">{{product.short_description}}</p>
         {{snipcart_btn(product)}}
-        <p class="card-link text-center m-2"><a href="#" class="text-muted p-2">Learn More</a></p>
+        <p class="card-link text-center m-2"><a href="../products/{{product.name | lower | replace(" ", "-")}}/index.html" class="text-muted p-2">Learn More</a></p>
         
       </div>
     </div>
