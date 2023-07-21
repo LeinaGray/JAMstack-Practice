@@ -5,8 +5,7 @@
   "main": "vibe.js",
   "scripts": {
     "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "npx sass assets/css:site/assets/css --watch",
-    "start": "npm run watch:eleventy & npm run watch:sass"
+    "start": "npm run watch:eleventy"
   },
   "keywords": [],
   "author": "",
