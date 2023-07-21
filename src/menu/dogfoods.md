@@ -1,6 +1,16 @@
 ---
 layout: menu.njk
-products: 
+links:
+    - Home
+    - Why Pawfect Treats?
+    - Products
+    - About Us
+    - Contact Us
+hero:
+    title: Different Dogs. Different Breeds
+    subtitle: Dog food that's tailored to your unique dog's needs
+    cta: Shop Now! 
+dogfoods: 
      - name: Active Dry Dog Food
        short_description: Dry food for very active dogs
        short_description_url: https://www.specific-diets.co.uk/dog/everyday-diets/active-cad-gb
