@@ -1,6 +1,12 @@
 ---
-layout: menu.njk
-products:
+layout: base.njk
+title: {{sample.name}}
+pagination:
+  data: samples
+  size: 1
+  alias: sample
+permalink: "samples/{{ sample.id | slug }}/"
+samples:
 - id: CAD
   name: Active Dry Dog Food
   short_description: Dry food for very active dogs
