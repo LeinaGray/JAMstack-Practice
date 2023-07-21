@@ -1,0 +1,27 @@
+{% import "macros.njk" as a %}
+{% import "components.njk" as c%}
+<!doctype html>
+<html lang="en">
+  <head>
+    {{a.meta_tags()}}
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    {# {%include "css.njk"%} #}
+    {{a.bootstrap_css()}}
+    {{a.icons()}}
+    {{a.fonts()}}
+    <title>{{title}}</title>
+  </head>
+
+  <body>
+    {{a.snipcart()}}
+    {{c.header()}}
+    {{c.navbar(links)}}
+    {{c.hero_section(hero)}}
+
+    {% block container%}
+      This is a container for main content.
+    {% endblock %}
+
+    {{a.bootstrap_js()}}
+    </body>
+</html>

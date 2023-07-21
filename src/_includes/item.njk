@@ -1,0 +1,24 @@
+{% macro snipcart_btn(product) %}
+    <button class="btn btn-primary snipcart-add-item"
+        data-item-id="{{product.id}}"
+        data-item-price="{{product.price}}"
+        data-item-description="{{product.short-description}}"
+        data-item-image="{{product.image}}"
+        data-item-name="{{product.name}}"
+        data-item-custom1-name="Package Size"
+        data-item-custom1-options="4kg[+{{product.price*2}}] | 7kg[+{{product.price*5}}] | 10kg[+{{product.price*8}}]">
+        Add to cart
+      </button>
+{% endmacro %}
+<div class="col m-2 p-0" >
+  <div class="card" style="width:19rem">
+      <img src="../../assets/img/{{product.name}}.png" class="card-img-top object-fit-none" style="aspect-ratio:1/1;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{product.name}}</h5>
+        <p class="card-subtitle">₱{{product.price}}/kg</p>
+        <p class="card-text">{{product.short_description}}</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+        {{snipcart_btn(product)}}
+      </div>
+    </div>
+</div>
