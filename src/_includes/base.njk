@@ -6,6 +6,7 @@
     {{a.meta_tags()}}
     {%include "css.njk"%}
     {{a.bootstrap_css()}}
+    {{a.icons()}}
     {{a.fonts()}}
     <title>{{title}}</title>
   </head>
@@ -13,7 +14,7 @@
   <body>
     {{a.snipcart()}}
     {{c.header()}}
-    {{c.navbar()}}
+    {{c.navbar(links)}}
     {{c.hero_section(hero)}}
 
     {% block container%}
