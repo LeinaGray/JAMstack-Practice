@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
 		files: 'site/css/**/*.css'
 	});
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/assets");
 
     return {
       dir: {
