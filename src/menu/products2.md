@@ -1,9 +1,19 @@
 ---
 layout: menu.njk
+links:
+    - Home
+    - Why Pawfect Treats?
+    - Products
+    - About Us
+    - Contact Us
+hero:
+    title: Different Dogs. Different Breeds
+    subtitle: Dog food that's tailored to your unique dog's needs
+    cta: Shop Now! 
 products:
 - id: CAD
   name: Active Dry Dog Food
-  short_description: Dry food for very active dogs
+  short_description: Dry dog food for very active adult dogs
   price: 194.00
 - id: CXW
   name: Adult All Breeds

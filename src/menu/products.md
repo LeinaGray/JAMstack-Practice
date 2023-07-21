@@ -1,11 +1,20 @@
 ---
 layout: product.njk
-title: {{product.name}}
+links:
+    - Home
+    - Why Pawfect Treats?
+    - Products
+    - About Us
+    - Contact Us
+hero:
+    title: Different Dogs. Different Breeds
+    subtitle: Dog food that's tailored to your unique dog's needs
+    cta: Shop Now! 
 pagination:
   data: products
   size: 1
   alias: product
-permalink: "products/{{ product.id | slug }}/"
+permalink: "menu/products/{{ product.name | slug }}/"
 products:
 - id: CPD-L
   name: Puppy Large & Giant Breed

@@ -5,8 +5,8 @@
 <html lang="en">
   <head>
     {{a.meta_tags()}}
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/product.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="../../../assets/css/product.css">
     {{a.bootstrap_css()}}
     {{a.icons()}}
     {{a.fonts()}}
@@ -17,10 +17,12 @@
     {{a.snipcart()}}
     {{c.header()}}
     {{c.navbar(links)}}
+    {{c.hero_section(hero)}}
         
     {# {%include "partial.njk"%} #}
     {{p.product_section(product)}}
 
     {{a.bootstrap_js()}}
+    {{c.footer()}}
     </body>
 </html>
