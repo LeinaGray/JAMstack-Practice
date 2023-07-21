@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: menu.njk
 products:
 - id: CPD-L
@@ -570,4 +570,4 @@ products:
     starch, animal fat, fish oil, minerals, vitamins and trace elements, beet pulp,
     psyllium husk, algae meal, sunflower oil, rosemary extract, krill powder, glucosamine,
     chondroitin sulphate
----
+--- -->
