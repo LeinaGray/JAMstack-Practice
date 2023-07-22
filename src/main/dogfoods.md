@@ -22,7 +22,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CAD.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Pawfect Treats Active Dry Dog is designed for active and working dogs. With a high energy and fat content, it provides all the calories needed to keep up the energy levels of even the most highly active dogs. Ideal for active dogs and dogs in recovery.
        benefits: It is high in energy and fat content to give your active dog the extra energy they need.Ingredients are highly digestible to ensure nutrients are absorbed. With added Vitamin C – to help with the growth and repair of muscle damaged during training. It is rich in Omega-3 from fish for healthy coat skin and joint. Immune support – added beta glucans from yeast to support the immune system.
-       product_code: CAD
+       id: CAD
        package_size: 10 kg
        price: 115.00
        weight: 
@@ -84,7 +84,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CXW.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: A tasty wet food pate with high levels of Omega-3 from fish, ingredients to support a healthy digestion and the immune system and with moderate energy levels to maintain an ideal bodyweight. This is a complete wet food so you can feed it either as the main food or mixed with dry kibble as a tasty treat.
        benefits: It contains high levels of Omega-3 from fish oils for healthy coat, skin and joints. With moderate energy density it helps to maintain ideal bodyweight. Added psyllium husk offers digestive support – absorbing water to firm up stools and regulating the digestive tract. With added beta glucans from yeast to support the immune system.
-       product_code: CXW
+       id: CXW
        package_size: 6 x 300 g
        price: 120.00
        weight: 
@@ -150,7 +150,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CXD-XL.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Pawfect Treats Large & Giant Breed Food is a complete and nutritionally balanced food for adult dogs over 25 kg. This food has been designed to meet the particular nutritional needs of large and giant breeds. High fibre levels and exceptionally digestible ingredients to help firm up the softer stools common amongst large and giant breeds and with extra-large kibble to encourage chewing.
        benefits: It contains high levels of Omega-3 from fish for healthy coat, skin and joints. It helps to maintain ideal body weight – with moderate energy density and added L Carnitine – a fat burning amino acid that helps convert fat to energy. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. With added psyllium husk to absorb water so firming up stools and regulating the digestive tract. With rice and fish – highly digestible ingredients to reduce faecal output - that was the nicest way we could think of saying that. Extra large kibble to encourage chewing.
-       product_code: CXD-XL
+       id: CXD-XL
        package_size: 4 kg, 12 kg
        price: 118.00
        weight: 
@@ -212,7 +212,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-DC-L.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: SPECIFIC dental chews have a special flexible texture and open structure that allows teeth to penetrate deep into the chew, scraping the teeth clean, along with a long chewing time this ensures excellent cleaning. They also contain ingredients to help reduce plaque and tartar and support fresh breath
        benefits: Hexametaphosphate helps prevent tartar by binding calcium in saliva, preventing calcification of plaque. Vitamin C phosphate limits growth of oral bacteria, plaque and Seaweed reduces plaque, tartar and the volatile sulphur components that cause bad breath. Green tea extract and eucalyptus oil support fresh breath
-       product_code: CT-DC-L
+       id: CT-DC-L
        package_size: 100 g
        price: 50.00
        
@@ -222,7 +222,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/LUNCH.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: If you have a very active dog or a working dog you will understand their needs are quite different to other dogs. Pawfect Treats Active Wet Dog food is good snack or meal for very active dogs such as sporting, working and hunting dogs. Packed with high quality ingredients, it will help keep your dog healthy and full of life. This nutritious wet food has a high energy and fat content and is designed to provide all the calories needed to keep up the energy levels of even the most highly active dogs. Wet food pâté for very active dogs and dogs in recovery .
        benefits: High energy and fat content to give your active dog the extra energy they need. Ingredients are highly digestible to ensure nutrients are absorbed. With added Vitamin C – to help with the growth and repair of muscle damaged during training. It is rich in Omega-3 from fish for healthy coat skin and joint. Immune support – added beta glucans from yeast to support the immune system.
-       product_code: LUNCH
+       id: LUNCH
        package_size: 7 x 100 g
        price: 130.00
        
@@ -232,7 +232,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CXD-M.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Pawfect Treats Medium Breed Food is a complete and nutritionally balanced food for adult medium breed dogs (10 - 25 kg). With high levels of Omega-3 from fish, ingredients to support a healthy digestion and the immune system and with moderate energy levels to maintain an ideal bodyweight.
        benefits: It contains high levels of Omega-3 from fish for healthy coat, skin and joints. It helps to maintain ideal body weight – with moderate energy density . Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health
-       product_code: CXD-M
+       id: CXD-M
        package_size: 4 kg, 7 kg, 12 kg
        price: 125.00
        weight: 
@@ -294,7 +294,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/C-BIO-W.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Organic foods are grown without the use of pesticides, herbicides, or chemical fertilizers. Organic livestock is raised without the regular and prophylactic use of antibiotics. Animal welfare is at the heart of the system, providing a truly free-range life for farm animals.
        benefits: Certified organic with a minimum of 95% of ingredients of controlled certified organic origin. Made with organic beef and organic spelt. Delicious alternative or supplement to dry dog food.
-       product_code: C-BIO-W
+       id: C-BIO-W
        package_size: 5 x 150 g
        price: 160.00
        weight: 
@@ -360,7 +360,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/C-BIO-D.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Organic foods are grown without the use of pesticides, herbicides, or chemical fertilizers. Organic livestock is raised without the regular and prophylactic use of antibiotics. Animal welfare is at the heart of the system, providing a truly free-range life for farm animals.
        benefits: Certified organic with a minimum of 95% of ingredients of controlled certified organic origin. Recyclable packaging. Made with 35% fresh chicken and 4% fresh turkey
-       product_code: C-BIO-D
+       id: C-BIO-D
        package_size: 4 kg
        price: 126.00
        weight: 
@@ -422,7 +422,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/C-BIO-W-F.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Organic foods are grown without the use of pesticides, herbicides, or chemical fertilizers. Organic livestock is raised without the regular and prophylactic use of antibiotics. Animal welfare is at the heart of the system, providing a truly free-range life for farm animals.
        benefits: Certified organic with a minimum of 95% of ingredients of controlled certified organic origin. Made with organic fish and organic spelt. Delicious alternative or supplement to dry dog food.
-       product_code: C-BIO-W-F
+       id: C-BIO-W-F
        package_size: 5 x 150 g
        price: 165.00
        weight: 
@@ -488,7 +488,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPW.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: A wet food pate for puppies with all the vitamins and minerals needed for healthy growth and with high levels of Omega-3 from fish to support development of the eyes, brain, skin, coat and joints. This is a complete wet food so you can feed it either as the main food or mixed with dry kibble as a tasty treat.
        benefits: It has high levels of Omega-3 from fish supporting brain and eye development and development of healthy coat, skin and joints. It contains added beta glucans from yeast to support the immune system. Added psyllium husk, absorbs water, firming up stools and regulating the digestive tract. Please note - because of the special growth sensitivity in large and giant breeds it is important that they are given Puppy Large and Giant Breed as their main, daily dog food.
-       product_code: CPW
+       id: CPW
        package_size: 6 x 300 g
        price: 135.00
        weight: 
@@ -554,7 +554,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-XL.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: For large breed puppies over 25kg adult weight. Many large and giant breed puppies are predisposed to grow too fast resulting in a range of problems in later life – and the wrong sort of nutrition can worsen that. Pawfect Treats Large and giant breed puppy food is formulated with moderate energy and calcium content to support the development of healthy joints and skeleton and reduce the risk of accelerated growth or weight gain.
        benefits: It has reduced calcium levels, adjusted for the needs of large and giant breeds. Moderate energy levels to control rate of growth and help prevent obesity. It contains high levels of Omega-3 from fish supporting brain and eye development and development of healthy coat, skin and joints. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. Added psyllium husk absorbs water, firming up stools and helping your dog’s digestion.
-       product_code: CPD-XL
+       id: CPD-XL
        package_size: 4 kg, 12 kg
        price: 155.00
        weight: 
@@ -616,7 +616,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-M.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Pawfect Treats Medium Breed Puppy food is for medium breeds, 10-25kg adult weight and lactating bitches of all breeds It contains all the vitamins and minerals needed for healthy growth and with high levels of Omega-3 from fish to support development of the eyes, brain, skin, coat and joints.
        benefits: It contains high levels of Omega-3 from fish supporting brain and eye development and development of healthy coat, skin and joints. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. Calcium and phosphorus levels are adjusted for teeth and bone growth. Added psyllium husk offers digestive support – absorbing water to firm up stools and regulating the digestive tract.
-       product_code: CPD-M
+       id: CPD-M
        package_size: 4 kg, 7 kg, 12 kg
        price: 135.00
        weight: 
@@ -678,7 +678,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CGW.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: A wet food made for the needs of senior dogs. High levels of omega-3 from fish to help keep older joints flexible. Lower calories and higher fibre helps avoid weight gain in the less active older dogs. Moderately reduced phosphorus and sodium levels reduce workload on the kidneys and added taurine to support heart muscle function. This diet is complete so can be fed either as the main food or mixed with dry kibble as a tasty treat. Wet foods are also a good option for dogs with missing teeth or other problems with chewing.
        benefits: It is rich in Omega-3 from fish for healthy coat skin and joint. It helps to maintain ideal body weight – with moderate energy density and added L Carnitine – a fat burning amino acid that helps convert fat to energy. The use of highly digestible proteins such as fish allows them to digest the food even with the less efficient digestive systems of older dogs. With added MOS supporting healthy digestion. Reduced protein, phosphorous and sodium to lower workload on the kidneys. Added beta glucans from yeast to support the immune system. Added Taurine supports the heart muscle function.
-       product_code: CGW
+       id: CGW
        package_size: 6 x 300 g
        price: 170.00
        weight: 
@@ -744,7 +744,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CGD-XL.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: A dry food for large and giant breed senior dogs over 25 kg. High levels of omega-3 from fish to help keep older joints flexible. Lower calories and higher fibre create a less energy dense food helping avoid weight gain in the less active older dogs. Moderately reduced phosphorus and sodium lower workload on the kidneys and added taurine to support heart muscle function.
        benefits: It is rich in Omega-3 from fish for healthy coat skin and joint. It helps to maintain the ideal bodyweight. With lower calories and higher fibre this is a less energy dense food. This means they can eat their usual amount, so not feel hungry, whilst controlling weight. It also contains L carnitine – a fat burning amino acid. The use of highly digestible proteins such as fish allows them to digest the food even with the less efficient digestive systems of older dogs. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. Reduced protein, phosphorous and sodium to lower workload on the kidneys. Added Taurine and L-Carnitine supports the heart muscle function. Extra large kibble to encourage chewing.
-       product_code: CGD-XL
+       id: CGD-XL
        package_size: 4 kg, 12 kg
        price: 180.00
        weight: 
@@ -806,7 +806,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CGD-M.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: A dry food for medium breed senior dogs between 10-25 kg. High levels of omega-3 from fish to help keep older joints flexible. Lower calories and higher fibre helps avoid weight gain in the less active older dogs. Moderately reduced phosphorus and sodium levels reduce workload on the kidneys and added taurine to support heart muscle function.
        benefits: It is rich in Omega-3 from fish for healthy coat skin and joint. It helps to maintain the ideal bodyweight. With lower calories and higher fibre this is a less energy dense food. This means they can eat their usual amount, so not feel hungry, whilst controlling weight. It also contains L carnitine – a fat burning amino acid. The use of highly digestible proteins such as fish allows them to digest the food even with the less efficient digestive systems of older dogs. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. Reduced protein, phosphorous and sodium to lower workload on the kidneys. Added Taurine and and L-Carnitine supports the heart muscle function.
-       product_code: CGD-M
+       id: CGD-M
        package_size: 4 kg, 7 kg, 12 kg
        price: 175.00
        weight: 
@@ -868,7 +868,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CXD-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Pawfect Treats Small Breed Food is a complete and nutritionally balanced food for small breed dogs (under 10kg). With high levels of Omega-3 from fish, ingredients to support a healthy digestion and the immune system and with moderate energy levels to maintain an ideal bodyweight.
        benefits: It contains high levels of Omega-3 from fish for healthy coat, skin and joints. It has a moderate calorie composition to maintain ideal bodyweight. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health
-       product_code: CXD-S
+       id: CXD-S
        package_size: 1 kg, 4 kg, 7 kg
        price: 160.50
        weight: 
@@ -932,7 +932,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CPD-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Pawfect Treats Medium Breed Puppy food is for medium breeds, under 10 adult weight and lactating bitches of all breeds It contains all the vitamins and minerals needed for healthy growth and with high levels of Omega-3 from fish to support development of the eyes, brain, skin, coat and joints.
        benefits: It contains high levels of Omega-3 from fish supporting brain and eye development and development of healthy coat, skin and joints. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. Calcium and phosphorus levels are adjusted for teeth and bone growth. Added psyllium husk offers digestive support – absorbing water to firm up stools and regulating the digestive tract.
-       product_code: CPD-S
+       id: CPD-S
        package_size: 1 kg, 4 kg, 7 kg
        price: 110.00
        weight: 
@@ -994,7 +994,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CGD-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: A dry food for small breed senior dogs under 10 kg. High levels of omega-3 from fish to help keep older joints flexible. Lower calories and higher fibre helps avoid weight gain in the less active older dogs. Moderately reduced phosphorus and sodium levels reduce workload on the kidneys and added taurine to support heart muscle function.
        benefits: It is rich in Omega-3 from fish for healthy coat skin and joint. It helps to maintain the ideal bodyweight. With lower calories and higher fibre this is a less energy dense food. This means they can eat their usual amount, so not feel hungry, whilst controlling weight. It also contains L carnitine – a fat burning amino acid. The use of highly digestible proteins such as fish allows them to digest the food even with the less efficient digestive systems of older dogs. Beet pulp as a source of fermentable fibres to support beneficial microflora and intestinal health. Reduced protein, phosphorous and sodium to lower workload on the kidneys. Added Taurine and L-Carnitine supports the heart muscle function.
-       product_code: CGD-S
+       id: CGD-S
        package_size: 1 kg, 4 kg, 7 kg
        price: 167.00
        weight: 
@@ -1056,7 +1056,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-DC-S.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: SPECIFIC dental chews have a special flexible texture and open structure that allows teeth to penetrate deep into the chew, scraping the teeth clean, along with a long chewing time this ensures excellent cleaning. They also contain ingredients to help reduce plaque and tartar and support fresh breath
        benefits: Hexametaphosphate helps prevent tartar by binding calcium in saliva, preventing calcification of plaque. Vitamin C phosphate limits growth of oral bacteria, plaque and tartar. Seaweed reduces plaque, tartar and the volatile sulphur components that cause bad breath. Green tea extract and eucalyptus oil support fresh breath
-       product_code: CT-DC-S
+       id: CT-DC-S
        package_size: 5 x 40 g
        price: 90.00
        
@@ -1066,7 +1066,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-H.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Low in fat and energy and high fibre you can give these treats every day without risking weight gain*. With added ingredients to support dental health. * It is recommended to reduce daily food rations corresponding to the amount of treats given. A daily treat for healthy dogs of all breeds and ages
        benefits: High fibre and low fat and energy to support an ideal body weight. Contain ingredients to support dental health by reducing plaque and tartar through binding of calcium in saliva, which prevents calcification of plaque and by support of fresh breath with green tea extract, eucalyptus oil and parsley powder
-       product_code: CT-H
+       id: CT-H
        package_size: 300 g
        price: 100.00
        
@@ -1076,7 +1076,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-HM.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Low in fat and energy and high fibre you can give these mini treats every day without risking weight gain*. With added ingredients to support dental health. * It is recommended to reduce daily food rations corresponding to the amount of treats given. A daily treat for healthy dogs of all breeds and ages
        benefits: High fibre and low fat and energy to support an ideal body weight. Contain ingredients to support dental health by reducing plaque and tartar through binding of calcium in saliva, which prevents calcification of plaque and by support of fresh breath with green tea extract, eucalyptus oil and parsley powder
-       product_code: CT-HM
+       id: CT-HM
        package_size: 300 g
        price: 70.00
     
@@ -1086,7 +1086,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-HY.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Made with highly digestible and hypoallergenic ingredients, hydrolysed salmon and rice, and a very limited number of ingredients, these treats are ideal for dogs with food allergies and digestive disorders such as colitis and IBD. A treat for healthy dogs of all breeds and ages with food allergies and sensitivities and digestive upset.
        benefits: Made with hydrolysed salmon, where the protein molecule is cut into small pieces making it less likely to trigger an allergic reaction and rice, a low allergen ingredient making them ideal for dogs with food allergies and sensitivities. The combination of hypoallergenic and highly digestible ingredients makes these treats ideal for dogs with digestive orders such as IBD and Colitis. Gluten-free making them idea for dogs with gluten intolerance
-       product_code: CT-HY
+       id: CT-HY
        package_size: 300 g
        price: 145.00
     
@@ -1096,7 +1096,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-BIO.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: Delicious treats for dogs made with a minimum of 95% certified organic ingredients and more than 80% fresh polutry pork and beef. The low content of carbohydrates makes SPECIFIC CT-BIO also suitable for dogs with diabetes mellitus.
        benefits: Certified organic with a minimum of 95% of ingredients of controlled certified organic origin. Contains more than 80% fresh poultry, pork and beef. Recyclable packaging. Grain-free recipe and with a low level of carbohydrates
-       product_code: CT-BIO
+       id: CT-BIO
        package_size: 6 x 100 g
        price: 105.00
     
@@ -1106,7 +1106,7 @@ products:
        image: https://www.specific-diets.co.uk/admin/public/getimage.ashx?Image=/files/images/specific/product-images/GB/CT-SC.jpg&Width=540&Height=0&Format=jpg&Quality=100&Crop=0
        description: These treats are made with hydrolysed blue whiting, krill, algae and sorghum – a naturally gluten-free, slow release carbohydrate. Slowly baked for high palatability these treats are low in protein, energy, fat and selected minerals making them safe for dogs with a range of conditions including pancreatitis, kidney, heart or liver failure, urolithiasis, joint and mobility, diabetes mellitus or allergies.
        benefits: Low allergenicity ingredients make them suitable for dogs with allergy and dermatological issues. Calories and fat at levels that make these treats suitable for dogs with joint and mobility issues. Fat at a level that make these treats suitable for dogs with pancreatitis. Low protein, magnesium, phosphorus, calcium and sodium levels makes these treats suitable for dogs with kidney disease, heart disease and bladder stones. Slowly baked for added palatability
-       product_code: CT-SC
+       id: CT-SC
        package_size: 300 g
        price: 168.00
 ---
