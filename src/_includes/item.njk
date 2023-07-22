@@ -13,55 +13,28 @@
         Add to cart
       </button>
 {% endmacro %}
-<div class="col m-2 p-0" >
-  <div class="card" style="width:19rem;">
-    <!-- Sale badge-->
-      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem; font-size:1rem">Sale</div>
-      <img src="../../assets/img/{{product.name}}.png" class="card-img-top object-fit-none" style="aspect-ratio:1/1;" alt="...">
-      
-      <div class="card-footer">
-        <h5 class="card-title">{{product.name}}</h5>
-        <h6 class="card-subtitle">₱{{product.price}}/kg</h6>
-        <div class="d-flex justify-content-center text-warning m-2">
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-            </div>
-        <p class="card-text text-muted">{{product.short_description}}</p>
-        {{snipcart_btn(product)}}
-        <p class="card-link text-center m-2"><a href="../products/{{product.name | lower | replace(" ", "-")}}/index.html" class="text-muted p-2">Learn More</a></p>
+
+  
+  <div class="col m-2 p-0 all {{product.tag}}">
+    <div class="card" style="width:19rem;">
+      <!-- Sale badge-->
+        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem; font-size:1rem">Sale</div>
+        <img src="../../assets/img/{{product.name}}.png" class="card-img-top " alt="...">
         
-      </div>
-    </div>
-</div>
-{# 
-<div class="col m-2 p-0">
-  <div class="card" style="width:19rem">
-      <!-- Product image-->
-      <img class="card-img-top" src="../../assets/img/{{product.name}}.png" alt="..." />
-      <!-- Product details-->
-      <div class="card-body">
-          <div class="text-center">
-            <!-- Product name-->
-            
-            <h5 class="fw-bolder">{{product.name}}</h5>
-            <div class="d-flex justify-content-center text-warning mb-2">
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-            </div>
-              <!-- Product price-->
-               <p class="card-subtitle">₱{{product.price}}/kg</p>
-            <p class="card-text">{{product.short_description}}</p>
-            {{snipcart_btn(product)}}
-            <div class="card-text text-center m-2"><a class="text-muted p-2" href="#">Learn More</a></div>
-        
+        <div class="card-footer">
+          <h5 class="card-title">{{product.name}}</h5>
+          <h6 class="card-subtitle">₱{{product.price}}/kg</h6>
+          <div class="d-flex justify-content-center text-warning m-2">
+                  <div class="bi-star-fill"></div>
+                  <div class="bi-star-fill"></div>
+                  <div class="bi-star-fill"></div>
+                  <div class="bi-star-fill"></div>
+                  <div class="bi-star-fill"></div>
+              </div>
+          <p class="card-text text-muted">{{product.short_description}}</p>
+          {{snipcart_btn(product)}}
+          <p class="card-link text-center m-2"><a href="../products/{{product.name | lower | replace(" ", "-")}}/index.html" class="text-muted p-2">Learn More</a></p>
+          
         </div>
-      
-        
+    </div>
   </div>
-</div> #}

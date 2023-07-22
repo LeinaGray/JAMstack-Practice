@@ -5,7 +5,9 @@
   <head>
     {{a.meta_tags()}}
     <link rel="stylesheet" href="/site/assets/css/style.css">
-    {# {%include "css.njk"%} #}
+    {%block css%}
+      <link rel="stylesheet" href="/site/assets/css/**.css">
+    {%endblock%}
     {{a.bootstrap_css()}}
     {{a.icons()}}
     {{a.fonts()}}
@@ -24,5 +26,8 @@
 
     {{c.footer()}}
     {{a.bootstrap_js()}}
+    {% block js %}
+      
+    {% endblock %}
     </body>
 </html>
