@@ -6,7 +6,7 @@
   <head>
     {{a.meta_tags()}}
     <link rel="stylesheet" href="../../../assets/css/style.css">
-    <link rel="stylesheet" href="/site/assets/css/product.css">
+    <link rel="stylesheet" href="../../../assets/css/product.css">
     {{a.bootstrap_css()}}
     {{a.icons()}}
     {{a.fonts()}}
@@ -15,7 +15,7 @@
 
   <body>
     {{a.snipcart()}}
-    {{c.header()}}
+    {{c.header('../../')}}
     {{c.navbar(links, '../../')}}
     {{c.hero_section(hero, '../../')}}
         

@@ -22,6 +22,9 @@ title: Home
 {% endmacro %}
 
 {% block container %}
+
+{{c.header('../')}}
+{{c.navbar(links, '../')}}
 {{c.hero_section(hero, '../')}}
 <div class="row mb-2">
     {% for post in posts %}
