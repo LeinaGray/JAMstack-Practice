@@ -2,6 +2,7 @@
 title: Dog Foods
 ---
 
+{% import "components.njk" as c%}
 {%extends "base.njk"%}
 {% block css %}
     <link rel="stylesheet" href="/site/assets/css/sidebar.css">
@@ -27,6 +28,9 @@ title: Dog Foods
 {% endmacro %}
 
 {% block container %}
+
+
+{{c.hero_section(hero, '../')}}
   
   {# <a class="btn btn-primary" data-bs-toggle="collapse" href="#all" role="button" aria-expanded="false" aria-controls="collapseExample">
     Link with href
