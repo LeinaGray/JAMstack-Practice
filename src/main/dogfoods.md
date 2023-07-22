@@ -3,7 +3,7 @@ layout: product.njk
 links:
     - Home
     - Why Pawfect Treats?
-    - Products
+    - Dog Foods
     - About Us
     - Contact Us
 hero:
