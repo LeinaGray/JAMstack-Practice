@@ -4,7 +4,7 @@ title: Home
 {% extends "base.njk" %}
 {% import "components.njk" as c%}
 
-{% macro featured_posts(post) %}
+{% macro featured_posts(post, photo) %}
   <div class="col-md-6">
     <div class="card flex-md-row mb-4 box-shadow h-md-250">
       <div class="card-body d-flex flex-column align-items-start">
@@ -16,7 +16,7 @@ title: Home
         <p class="card-text mb-auto">{{post.desc}}</p>
         <a href="/site/main/posts/{{post.name}}/index.html">Continue reading</a>
       </div>
-      <img class="card-img-right flex-auto d-none d-md-block" src="/site/assets/posts/*.png" alt="Card image cap">
+      <img class="card-img-right flex-auto d-none d-md-block object-fit-contain" style="aspect-ratio:2/2"src="../../assets/stock-img/{{photo}}" alt="Card image cap">
     </div>
   </div>
 {% endmacro %}
@@ -26,11 +26,19 @@ title: Home
 {{c.header('../')}}
 {{c.navbar(links, '../')}}
 {{c.hero_section(hero, '../')}}
+
+
 <div class="row mb-2">
+    {% set cls = cycler("2.jpg", "3.jpg") %}
     {% for post in posts %}
-        {{featured_posts(post)}}
+        {{featured_posts(post, cls.next())}}
     {% endfor %}
 </div>
+
+{% for feature in features %}
+  {{c.featurette(feature)}}
+{% endfor %}
+
 {% endblock %}
     
 
