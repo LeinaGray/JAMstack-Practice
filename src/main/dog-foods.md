@@ -42,7 +42,7 @@ products:
   price: 188.00
   tag: adult dry medium_breeds
 - id: C-BIO-W
-  name: Organic with Beef
+  name: Organic With Beef
   short_description: Organic wet food pâté for healthy adult dogs
   price: 196.00
   tag: organic wet adult all_breeds
@@ -52,7 +52,7 @@ products:
   price: 197.00
   tag: organic wed adult all_breeds
 - id: C-BIO-W-F
-  name: Organic with Fish
+  name: Organic With Fish
   short_description: Organic wet food pâté for healthy adult dogs
   price: 180.00
   tag: organic wet adult all_breeds
