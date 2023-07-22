@@ -1,0 +1,43 @@
+---
+title: Home
+---
+{% extends "base.njk" %}
+{% import "components.njk" as c%}
+
+{% block container %}
+    {{c.header('../')}}
+    {{c.navbar(links, '../')}}
+    {{c.hero_section(hero, '../')}}
+
+    <div class="row d-flex justify-content-center align-items-center rows"style="height:20rem;">
+            <div class="col-md-6" >
+                <div class="card">
+                    <div class="text-center">
+                        <span class="d-block mt-3">{{subscribe.header}}</span>
+                        <div class="mx-5">
+                            <div class="input-group mb-3 mt-4">
+                                <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-dark flex-shrink-0" type="submit" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Subscribe
+                                </button>
+                                <div class="form-check">
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                                </div>
+                                <div class="collapse mb-5" id="collapseExample">
+                                    You will now be notified for new arrivals, promotions and disccounts. 
+                                    Here is your first %20 OFF Discount for your first order!
+                                    <b>CODE: {{subscribe.code}}</b>
+                                </div>
+                            </div>
+                        </div>
+                         </div>
+                </div>
+            </div>
+</div>
+{% endblock %}
+    
+
+    
+    

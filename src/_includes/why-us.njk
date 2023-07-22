@@ -1,0 +1,26 @@
+---
+title: Home
+---
+{% extends "base.njk" %}
+{% import "components.njk" as c%}
+
+{% block container %}
+    {{c.header('../')}}
+    {{c.navbar(links, '../')}}
+    {{c.hero_section(hero, '../')}}
+    <div class="row justify-content-around">
+
+        {% for feature in features %}
+            <div class="col-lg-5 p-5">
+            <img class="rounded-circle object-fit-sm-scale m-5" style="width:100%; "alt="avatar1" src="{{feature.image}}" />
+            <h1 class="m font-italic">{{feature.header}}</h1>
+            <p>{{feature.subheader}}</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        {% endfor %}  
+    </div>
+{% endblock %}
+    
+
+    
+    
