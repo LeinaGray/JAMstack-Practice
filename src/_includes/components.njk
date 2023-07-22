@@ -21,11 +21,11 @@
 {% endmacro %}
 
 
-{% macro navbar(links) %}
+{% macro navbar(links, directory) %}
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-center">
           {% for link in links %}
-            <a class="p-2 text-muted" href="/site/main/{{ link |lower |replace(" ", "-")}}/index.html">{{ link }}</a>
+            <a class="p-2 text-muted" href="{{directory}}{{ link |lower |replace(" ", "-")}}/index.html">{{ link }}</a>
           {% endfor %}
         </nav>
       </div>
